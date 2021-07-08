@@ -1,6 +1,6 @@
 from pysondb import db
 
-a = db.getDb("registry.json")
+a = db.getDb("registry.json",log=True)
 while True:
     name = input("Enter Name:")
     age = input("Enter type:")
